@@ -4,7 +4,7 @@ session_start();
 $userLogin = null;
 if (isset($_SESSION['userlogin'])) {
     $userLogin = $_SESSION['userlogin'];
-    //echo "user olready logined";
+    //echo "user already logined";
 }
 if (isset($_POST['login']) && trim($_POST['login']) !== "") {
     $userLogin = trim($_POST['login']);
