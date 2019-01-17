@@ -2,7 +2,7 @@
 session_start();
 
 if (isset($_SESSION['userlogin'])) {
-    //echo "user olready logined";
+    //echo "user already logined";
     $userLogin = $_SESSION['userlogin'];
 } else {
     $userLogin = null;
